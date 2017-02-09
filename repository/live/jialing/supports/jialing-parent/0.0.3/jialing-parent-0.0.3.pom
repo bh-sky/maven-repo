@@ -253,6 +253,12 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>1.2.0</version>
             </dependency>
+            <!-- 使mybatis里面支持java8的时间、日期 -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-typehandlers-jsr310</artifactId>
+                <version>1.0.2</version>
+            </dependency>
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-spring-boot-starter</artifactId>
