@@ -16,5 +16,6 @@
         <module>libs</module>
         <module>parent</module>
         <module>bom</module>
+        <module>doc</module>
     </modules>
 </project>
