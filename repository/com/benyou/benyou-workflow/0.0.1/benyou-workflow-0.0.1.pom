@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.benyou</groupId>
+		<artifactId>benyou-parent</artifactId>
+		<version>0.0.1</version>
+		<relativePath>../../supports/parent</relativePath>
+	</parent>
+	<artifactId>benyou-workflow</artifactId>
+	<name>工作流</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+
+		<!-- 奔友平台工具类 -->
+		<dependency>
+			<groupId>com.benyou</groupId>
+			<artifactId>benyou-util</artifactId>
+			<version>${benyou.framework.version}</version>
+		</dependency>
+
+		<!-- 奔友平台核心 -->
+		<dependency>
+			<groupId>com.benyou</groupId>
+			<artifactId>benyou-core</artifactId>
+			<version>${benyou.framework.version}</version>
+		</dependency>
+
+		<!-- 奔友平台jpa封装类 -->
+		<dependency>
+			<groupId>com.benyou</groupId>
+			<artifactId>benyou-data-jpa</artifactId>
+			<version>${benyou.framework.version}</version>
+		</dependency>
+		
+		<!-- 奔友平台权限用户类 -->
+		<dependency>
+            <groupId>com.benyou</groupId>
+            <artifactId>benyou-org</artifactId>
+            <version>${benyou.framework.version}</version>
+        </dependency>
+
+		<!-- activiti与spring-boot集成包 -->
+		<dependency>
+		    <groupId>org.activiti</groupId>
+		    <artifactId>activiti-spring-boot-starter-basic</artifactId>
+		</dependency>
+		
+		<!-- spring-boot测试包 -->
+		<!-- <dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-test</artifactId>
+		</dependency> -->
+		<!-- spring-boot测试引入App入口类 -->
+		<!-- <dependency>
+        	<groupId>com.benyou.project</groupId>
+			<artifactId>benyou-platform</artifactId>
+			<version>${benyou.framework.version}</version>
+        </dependency> -->
+		
+		<dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
