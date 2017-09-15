@@ -74,7 +74,7 @@
         </dependency>
         <dependency>
             <groupId>live.jialing</groupId>
-            <artifactId>jialing-auth</artifactId>
+            <artifactId>jialing-platform-auth</artifactId>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>

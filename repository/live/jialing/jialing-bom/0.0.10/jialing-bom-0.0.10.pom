@@ -11,7 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <jialing.version>0.0.9</jialing.version>
+        <jialing.version>0.0.10</jialing.version>
         <!--<dozer.version>5.5.1</dozer.version>-->
         <orika.version>1.5.1</orika.version>
         <mybatis.version>3.4.1</mybatis.version>
@@ -91,7 +91,7 @@
             </dependency>
             <dependency>
                 <groupId>live.jialing</groupId>
-                <artifactId>jialing-auth</artifactId>
+                <artifactId>jialing-platform-auth</artifactId>
                 <version>${jialing.version}</version>
             </dependency>
             <dependency>
