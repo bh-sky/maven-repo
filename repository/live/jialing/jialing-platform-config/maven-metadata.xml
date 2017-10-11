@@ -3,10 +3,11 @@
   <groupId>live.jialing</groupId>
   <artifactId>jialing-platform-config</artifactId>
   <versioning>
-    <release>0.0.10</release>
+    <release>0.0.11</release>
     <versions>
       <version>0.0.10</version>
+      <version>0.0.11</version>
     </versions>
-    <lastUpdated>20170926025525</lastUpdated>
+    <lastUpdated>20171011081208</lastUpdated>
   </versioning>
 </metadata>
