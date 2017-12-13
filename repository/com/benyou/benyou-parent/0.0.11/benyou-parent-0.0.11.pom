@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <benyou.framework.version>0.0.10</benyou.framework.version>
+        <benyou.framework.version>0.0.11</benyou.framework.version>
         <resource.delimiter>@</resource.delimiter> <!-- delimiter that doesn't clash with Spring ${} placeholders -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
