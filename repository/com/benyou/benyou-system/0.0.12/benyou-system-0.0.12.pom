@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+		<groupId>com.benyou</groupId>
+		<artifactId>benyou-parent</artifactId>
+		<version>0.0.12</version>
+		<relativePath>../../supports/parent</relativePath>
+	</parent> 
+  <artifactId>benyou-system</artifactId>
+  <name>系统设置</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<dependencies>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+ 
+		<!-- 奔友平台工具类 -->
+		<dependency>
+			<groupId>com.benyou</groupId>
+			<artifactId>benyou-util</artifactId>
+		</dependency>
+
+		<!-- 奔友平台核心 -->
+		<dependency>
+			<groupId>com.benyou</groupId>
+			<artifactId>benyou-core</artifactId>
+		</dependency>
+
+		<!-- 奔友平台jpa封装类 -->
+		<dependency>
+			<groupId>com.benyou</groupId>
+			<artifactId>benyou-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
