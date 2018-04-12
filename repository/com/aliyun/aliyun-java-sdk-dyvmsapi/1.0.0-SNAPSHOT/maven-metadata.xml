@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.aliyun</groupId>
+  <artifactId>aliyun-java-sdk-dyvmsapi</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180412.032734</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20180412032734</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20180412.032734-1</value>
+        <updated>20180412032734</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20180412.032734-1</value>
+        <updated>20180412032734</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
