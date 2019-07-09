@@ -1,0 +1,13 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jul 09 17:55:50 CST 2019
+https\://raw.githubusercontent.com/bh-sky/maven-repo/master/repository/.lastUpdated=1562666150442
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1562666149657
+https\://repo.spring.io/snapshot/.error=
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+https\://maven.oracle.com/.error=
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1562666150897
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1562664089712
+https\://raw.githubusercontent.com/bh-sky/maven-repo/master/repository/.error=
+https\://repo.spring.io/snapshot/.lastUpdated=1562666149270
+https\://maven.oracle.com/.lastUpdated=1562664719688
